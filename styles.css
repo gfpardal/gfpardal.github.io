@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #1E1E1E;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+.download-cv {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #FFD700;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.intro {
+    max-width: 500px;
+}
+
+.greeting {
+    font-size: 16px;
+    color: #FFD700;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.role {
+    font-size: 20px;
+}
+
+.role span {
+    color: #FFD700;
+}
+
+.say-hello {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    border: none;
+    cursor: pointer;
+}
+
+.image-overlay {
+    position: relative;
+}
+
+.demos {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background-color: #FFD700;
+    padding: 5px 10px;
+    font-weight: bold;
+}
