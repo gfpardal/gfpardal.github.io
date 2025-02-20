@@ -2,12 +2,14 @@ document.getElementById("year").innerHTML = new Date().getFullYear();
 
 var language = 'en';
 
-function loadLanguages() {
+function loadLanguage() {
     document.getElementById("cv-button").href = 
         language === 'en' ? "CurriculumGP_EN.pdf" : "CurriculoGP_PT.pdf";
+    document.getElementById("greeting").innerHTML = new 
+      language === 'en' ? "HELLO, I'M" : "OLA, EU SOU O";
 }
 
 function changeLanguage() {
     language = language === 'en' ? 'pt' : 'en';
-    loadLanguages();
+    loadLanguage();
 }
