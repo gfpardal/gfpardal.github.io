@@ -44,6 +44,8 @@ nav ul li a:hover {
     background-color: #FFD700;
     border: none;
     cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 .content {
