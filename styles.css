@@ -107,3 +107,22 @@ h1 {
     padding: 5px 10px;
     font-weight: bold;
 }
+
+.blob {
+    position: absolute;
+    width: 60vmin;
+    height: 60vmin;
+    animation: morph 8s infinite alternate ease-in-out;
+}
+
+@keyframes morph {
+    0% {
+        d: path("M50,10 C90,-20 110,50 90,90 C70,130 20,120 10,80 C0,40 10,20 50,10");
+    }
+    50% {
+        d: path("M50,10 C110,20 120,60 90,100 C60,140 10,120 10,70 C10,20 20,0 50,10");
+    }
+    100% {
+        d: path("M50,10 C90,-20 110,50 90,90 C70,130 20,120 10,80 C0,40 10,20 50,10");
+    }
+}
