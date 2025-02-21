@@ -150,6 +150,8 @@ h1 {
     right: 0;
     left: 0;
     bottom: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
 }
 
 .image-overlay {
@@ -192,4 +194,11 @@ html, body {
     font-family: Arial, sans-serif;
     background-color: #121212;
     color: white;
+}
+
+.intro-container {
+    width: fit-content;
+    top: 20%;
+    position: relative;
+    padding: 10%;
 }

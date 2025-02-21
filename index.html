@@ -4,13 +4,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">    
     <script src="script.js" defer=""></script>
 </head>
 
 <body>
-   <div class="container">
+    <div class="container">
         <!-- Sidebar -->
-    <aside class="sidebar">
+        <aside class="sidebar">
             <div class="sidebar-up center-content">
                 <div class="logo">Portfolio</div>
             </div>
@@ -36,14 +37,16 @@
         <main class="content">
             <!-- Home Section -->
             <section id="home" class="active"> 
-                <div class="intro-left center-content">
-                    <p id="greeting" class="greeting">HELLO, I'M</p>
-                    <h1>Gonçalo Pardal</h1>
-                    <p class="role">
-                        <span id="description">A Passionate </span>
-                        <span id="work-role" class="primary-color">Software Developer</span>
-                        <span class="flicker-animation primary-color">_</span>
-                    </p>
+                <div class="intro-left center-content"> 
+                    <div class="intro-container">
+                        <p id="greeting" class="greeting">HELLO, I'M</p>
+                        <h1>Gonçalo Pardal</h1>
+                        <p class="role">
+                            <span id="description">A Passionate </span>
+                            <span id="work-role" class="primary-color">Software Developer</span>
+                            <span class="flicker-animation primary-color">_</span>
+                        </p>
+                    </div>
                 </div>  
                 <div class="intro-right">
                     <div class="image-overlay">
@@ -51,7 +54,7 @@
                     </div>
                     <div class="image-background"></div>
                 </div>
-</section>
+        </section>
 
 
             <!-- About Section -->
@@ -64,7 +67,12 @@
             <section id="experience">Experiência</section>
 
             <!-- Contact Section -->
-            <section id="contact">Contactos</section>
+        <section id="contact">
+            <a href="https://github.com/gfpardal"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/goncalo-pardal"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/_gpardal_/"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:goncalopardaleco@gmail.com"><i class="fas fa-envelope"></i></a>
+        </section>
             
         </main>
     </div>
