@@ -25,7 +25,7 @@ nav ul {
 }
 
 nav ul li {
-    padding: 10%;
+    padding: 15%;
     text-align: center;
 }
 
@@ -42,13 +42,17 @@ nav ul li a:hover {
 }
 
 .download-cv {
-    margin-top: auto;
-    padding: 10px;
+    padding: 5%;
     background-color: #FFD700;
-    border: none;
+    border-radius: 5%;
     cursor: pointer;
     color: black;
     text-decoration: none;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 50%;
+    position: absolute;
 }
 
 /* Content */
@@ -177,15 +181,16 @@ h1 {
 
 /* Sidebar sections */
 .sidebar-up {
-    height: 20%;
+    height: 15%;
 }
 
 .sidebar-middle {
-    height: 50%;
+    height: 75%;
+    position: relative;
 }
 
 .sidebar-down {
-    height: 30%;
+    height: 10%;
 }
 
 html, body {
@@ -201,4 +206,34 @@ html, body {
     top: 20%;
     position: relative;
     padding: 10%;
+}
+
+.icon-links a {
+    color: white;
+    position: relative;
+    width: 15%;
+}
+
+.icon-links a:hover {
+    color: #FFD700;
+}
+
+.icon-links{
+    padding: 10%;
+    justify-content: space-around;
+    display: flex;
+}
+
+i.fas.fa-circle.inner {
+    color: #1E1E1E;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0) scale(0.5);
+}
+
+i.fas.fa-circle.outer {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
 }
