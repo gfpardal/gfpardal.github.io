@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,44 +6,68 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer=""></script>
 </head>
+
 <body>
-    <div class="container">
-        <aside class="sidebar">
+   <div class="container">
+        <!-- Sidebar -->
+    <aside class="sidebar">
             <div class="sidebar-up center-content">
-                <div class="logo"> Portfolio</div> 
+                <div class="logo">Portfolio</div>
             </div>
+
             <div class="sidebar-middle center-content">
                 <nav>
                     <ul>
-                        <li><a id="home" href="#">Home</a></li>
-                        <li><a id="about" href="#">About</a></li>
-                        <li><a id="projects" href="#">Projects</a></li>
-                        <li><a id="experience" href="#">Experience</a></li>
-                        <li><a id="contact" href="#">Contact</a></li>
-                        <li><a onclick="changeLanguage()">EN / PT</a></li></ul>
+                        <li><a href="#home" id="link-home">Home</a></li>
+                        <li><a href="#about" id="link-about">About</a></li>
+                        <li><a href="#projects" id="link-projects">Projects</a></li>
+                        <li><a href="#experience" id="link-experience">Experience</a></li>
+                        <li><a href="#contact" id="link-contact">Contact</a></li>
+                        <li><a onclick="changeLanguage()">EN / PT</a></li>
+                    </ul>
                 </nav>
-            </div> 
+            </div>
+
             <div class="sidebar-down center-content">
                 <a id="cv-button" href="CurriculoGP_PT.pdf" class="download-cv" download="">Download CV</a>
-            </div>  
+            </div>
         </aside>
+        <!-- Main Content -->
         <main class="content">
-            <section class="intro-left">
-                <p id="greeting" class="greeting">OLA, EU SOU O</p>
+            <!-- Home Section -->
+            <section id="home" class="active"> 
+                <div class="intro-left center-content"><p id="greeting" class="greeting">HELLO, I'M</p>
                 <h1>Gonçalo Pardal</h1>
                 <p class="role">
                     <span id="description">A Passionate </span>
                     <span class="primary-color">Software Developer</span>
-                    <span class="flicker-animation primary-color">_</span></p>
-            </section>
-            <section class="intro-right">
-    <div class="intro-right-overlay">
-    <div class="image-overlay"><img src="profilephoto.png" alt="Photo Gonçalo" width="90%"></div>
-    <div class="image-background"></div>
-    </div>
+                    <span class="flicker-animation primary-color">_</span></p></div> 
+                <div class="intro-right">
+                    <div class="image-overlay">
+                        <img src="profilephoto.png" alt="Photo Gonçalo" width="90%">
+                    </div>
+                    <div class="image-background"></div>
+                </div>
 </section>
+
+
+            <!-- About Section -->
+            <section id="about">Sobre</section>
+
+            <!-- Projects Section -->
+            <section id="projects">Projetos</section>
+
+            <!-- Experience Section -->
+            <section id="experience">Experiência</section>
+
+            <!-- Contact Section -->
+            <section id="contact">Contactos</section>
             
-<div class="bottom-bar">Copyright © Gonçalo Pardal <span id="year">2025</span></div></main>
+        </main>
+    </div>
+    <!-- Bottom Bar -->
+    <div class="bottom-bar center-content">
+        Copyright © Gonçalo Pardal <span id="year">2025</span>
     </div>
 
 </body></html>
