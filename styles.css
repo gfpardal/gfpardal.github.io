@@ -78,10 +78,6 @@ h1 {
     font-size: 20px;
 }
 
-.role span {
-    color: #FFD700;
-}
-
 .say-hello {
     margin-top: 20px;
     padding: 10px 20px;
@@ -245,4 +241,8 @@ body {
     width: 100%;
     left: 0;
     color: #adb5bd;
+}
+
+.primary-color{
+    color: #FFD700;
 }

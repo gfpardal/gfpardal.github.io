@@ -40,9 +40,7 @@ function loadLanguage(language) {
     document.getElementById("cv-button").href = langData.cvLink;
 }
 
-
 function changeLanguage() {
     language = language === 'en' ? 'pt' : 'en';
-    loadLanguage()
+    loadLanguage(language)
 }
-
