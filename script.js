@@ -5,11 +5,12 @@ var language = 'en';
 function loadLanguage() {
     document.getElementById("cv-button").href = 
         language === 'en' ? "CurriculumGP_EN.pdf" : "CurriculoGP_PT.pdf";
-    document.getElementById("greeting").innerHTML = new 
-      language === 'en' ? "HELLO, I'M" : "OLA, EU SOU O";
+    document.getElementById("greeting").innerHTML = 
+        language === 'en' ? "HELLO, I'M" : "OLA, EU SOU O";
 }
 
 function changeLanguage() {
     language = language === 'en' ? 'pt' : 'en';
-    loadLanguage();
+    loadLanguage()
 }
+
