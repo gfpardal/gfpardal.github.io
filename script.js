@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Add event listeners to sidebar links
-    const links = document.querySelectorAll('.sidebar nav a');
+    const links = document.querySelectorAll('.sidebar nav a:not(.link-language)');;
     links.forEach(link => {
         link.addEventListener('click', function(e) {
             e.preventDefault();
