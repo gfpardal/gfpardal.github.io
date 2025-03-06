@@ -57,13 +57,13 @@ function loadLanguage(language) {
     document.getElementById("cv-button").href = langData.cvLink;
 
     /** About me section **/
-    document.getElementById("about").href = langData.about;
-    document.getElementById("about-p1").href = langData.about1;
-    document.getElementById("about-p2").href = langData.about2;
-    document.getElementById("about-p3").href = langData.about3;
-    document.getElementById("about-p4").href = langData.about4;
-    document.getElementById("about-p5").href = langData.about5;
-    document.getElementById("about-p6").href = langData.about6;
+    document.getElementById("about").innerHTML = langData.about;
+    document.getElementById("about-p1").innerHTML = langData.about1;
+    document.getElementById("about-p2").innerHTML = langData.about2;
+    document.getElementById("about-p3").innerHTML = langData.about3;
+    document.getElementById("about-p4").innerHTML = langData.about4;
+    document.getElementById("about-p5").innerHTML = langData.about5;
+    document.getElementById("about-p6").innerHTML = langData.about6;
 }
 
 function changeLanguage() {
