@@ -12,7 +12,14 @@ const translations = {
         experience: "Experience",
         contact: "Contact",
         cvLink: "CurriculumGP_EN.pdf",
-        workrole: "Software Developer"
+        workrole: "Software Developer",
+        about: "About me",
+        about1: "I approach every challenge with determination and perseverance, always striving",
+        about2: "for excellence in my work. Helping others is something I deeply value, guided by a",
+        about3: "strong sense of empathy and collaboration. My passion for programming has been",
+        about4: "a driving force in my career, and recently, I have developed a keen interest in",
+        about5: "OutSystems. This continuous learning mindset reflects commitment to growth and",
+        about6: "innovation in the technology field"
     },
     pt: {
         greeting: "OLÁ, EU SOU O",
@@ -23,7 +30,14 @@ const translations = {
         experience: "Experiência",
         contact: "Contactos",
         cvLink: "CurriculoGP_PT.pdf",
-        workrole: "Desenvolvedor de Software"
+        workrole: "Desenvolvedor de Software",
+        about: "Sobre mim",
+        about1: "Encaro cada desafio com determinação e perseverança, sempre em busca da excelência",
+        about2: "no meu trabalho. Valorizar e apoiar os outros é algo que considero essencial, guiado",
+        about3: "por um forte sentido de empatia e colaboração. A programação tem sido uma paixão",
+        about4: "ao longo da minha carreira e, recentemente, desenvolvi um grande interesse pelo OutSystems.",
+        about5: "Este compromisso com a aprendizagem contínua reflete a minha dedicação ao crescimento",
+        about6: "e à inovação na área da tecnologia."
     }
 };
 
@@ -41,6 +55,15 @@ function loadLanguage(language) {
     document.getElementById("link-experience").innerHTML = langData.experience;
     document.getElementById("link-contact").innerHTML = langData.contact;
     document.getElementById("cv-button").href = langData.cvLink;
+
+    /** About me section **/
+    document.getElementById("about").href = langData.about;
+    document.getElementById("about-p1").href = langData.about1;
+    document.getElementById("about-p2").href = langData.about2;
+    document.getElementById("about-p3").href = langData.about3;
+    document.getElementById("about-p4").href = langData.about4;
+    document.getElementById("about-p5").href = langData.about5;
+    document.getElementById("about-p6").href = langData.about6;
 }
 
 function changeLanguage() {

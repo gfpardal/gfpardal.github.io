@@ -238,3 +238,11 @@ i.fas.fa-circle.outer {
     transform: translate(-50%, 0);
     text-align: center;
 }
+
+.about-container {
+    display: block;
+    position: absolute;
+    width: 55%;
+    padding: 5%;
+    bottom: 10%;
+}
