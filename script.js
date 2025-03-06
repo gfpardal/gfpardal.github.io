@@ -53,7 +53,6 @@ function loadLanguage(language) {
     document.getElementById("link-about").innerHTML = langData.about;
     document.getElementById("link-projects").innerHTML = langData.projects;
     document.getElementById("link-experience").innerHTML = langData.experience;
-    document.getElementById("link-contact").innerHTML = langData.contact;
     document.getElementById("cv-button").href = langData.cvLink;
 
     /** About me section **/
